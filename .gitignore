@@ -1,0 +1,9 @@
+node_modules
+.next
+dist
+target
+coverage
+.env
+.env.local
+anchor-test-ledger
+*.keypair.json

@@ -1,0 +1,3 @@
+[workspace]
+members = ["programs/escrow", "services/policy", "services/verdict"]
+resolver = "2"

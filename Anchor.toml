@@ -1,0 +1,12 @@
+[toolchain]
+anchor_version = "0.31.1"
+[features]
+resolution = true
+skip-lint = false
+[programs.localnet]
+agentpay_escrow = "HC2YZNhkvvHPP2Bt4KwXe3hayNQW2JBM3zpbPjSfwG4q"
+[provider]
+cluster = "Localnet"
+wallet = "~/.config/solana/id.json"
+[scripts]
+test = "pnpm --filter @agentpay/escrow-tests test"

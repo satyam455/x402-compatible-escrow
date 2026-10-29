@@ -1,0 +1,6 @@
+{
+  "name": "agentpay",
+  "private": true,
+  "packageManager": "pnpm@11.5.2",
+  "scripts": {"dev":"pnpm --parallel --filter @agentpay/web --filter @agentpay/x402 dev","build":"pnpm -r build","test":"pnpm -r test","fmt":"cargo fmt --all","anchor:build":"NO_DNA=1 anchor build","anchor:test":"NO_DNA=1 anchor test"}
+}
